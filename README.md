@@ -1,5 +1,4 @@
-![Uploading image.png…]()
-
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c9d4f401-dda3-4b0e-8e97-ca6db6cd11ce" />
 
 # MSA Copilot Training Project
 
