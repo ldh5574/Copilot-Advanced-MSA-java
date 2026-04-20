@@ -2,19 +2,27 @@
 {
   "servers": {
     "github": {
-			"command": "docker",
-			"args": [
-				"run",
-				"-i",
-				"--rm",
-				"-e",
-				"GITHUB_PERSONAL_ACCESS_TOKEN",
-				"ghcr.io/github/github-mcp-server"
-			],
-			"env": {
-				"GITHUB_PERSONAL_ACCESS_TOKEN": "${input:github_token}"
-			},
-			"type": "stdio"
-		}
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "GITHUB_PERSONAL_ACCESS_TOKEN",
+        "ghcr.io/github/github-mcp-server"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": ""
+      }
+    },
+    "quibbler": {
+      "command": "quibbler",
+      "args": [
+        "mcp"
+      ],
+      "env": {
+        "ANTHROPIC_API_KEY": ""
+      }
+    }
   }
 }
